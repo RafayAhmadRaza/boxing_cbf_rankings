@@ -1,0 +1,85 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Georgia', 'Times New Roman', serif;
+  background: #f0ebe0;
+  color: #1a1a1a;
+  padding: 50px 20px;
+}
+
+.masthead {
+  max-width: 800px;
+  margin: 0 auto 30px;
+  text-align: center;
+  border-bottom: 3px solid #1a1a1a;
+  padding-bottom: 20px;
+}
+
+.masthead h1 {
+  font-family: 'Georgia', serif;
+  font-size: 2rem;
+  font-weight: normal;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+.masthead .org {
+  font-size: 0.75rem;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  color: #6b6b6b;
+  margin-top: 6px;
+}
+
+.rankings-table {
+  width: 100%;
+  max-width: 800px;
+  margin: 0 auto;
+  border-collapse: collapse;
+  background: #f8f5ec;
+}
+
+.rankings-table th {
+  border-top: 2px solid #1a1a1a;
+  border-bottom: 1px solid #1a1a1a;
+  text-align: left;
+  padding: 8px 12px;
+  font-size: 0.7rem;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  font-weight: normal;
+  color: #4a4a4a;
+}
+
+.rankings-table td {
+  padding: 10px 12px;
+  border-bottom: 1px solid #d8d0bf;
+  font-size: 0.95rem;
+}
+
+.rankings-table tbody tr:last-child td {
+  border-bottom: 2px solid #1a1a1a;
+}
+
+.champion-tag {
+  font-size: 0.65rem;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: #8b1a1a;
+  border: 1px solid #8b1a1a;
+  padding: 1px 6px;
+  margin-left: 8px;
+}
+
+.updated {
+  max-width: 800px;
+  margin: 30px auto 0;
+  text-align: right;
+  font-size: 0.75rem;
+  color: #8a8378;
+  font-style: italic;
+}
